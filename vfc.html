@@ -840,7 +840,7 @@
     <div class="offers-grid">
       <div class="offer-card fade-in">
         <!-- Replace with: <img src="vfc/morning-combo.jpg" class="offer-img" alt="Morning Combo"> -->
-        <img src="vfc/morning.png" class="offer-img" alt="Morning Combo">
+        <img src="morning.png" class="offer-img" alt="Morning Combo">
         <div class="offer-card-body">
           <div class="offer-title">Morning Combo</div>
           <p class="offer-desc">1 Cutting Chai + 2 Bread Pakora — the perfect Kolkata morning ritual.</p>
@@ -850,7 +850,7 @@
         </div>
       </div>
       <div class="offer-card fade-in">
-        <img src="vfc/samosaoffer.png" class="offer-img" alt="Morning Combo">
+        <img src="samosaoffer.png" class="offer-img" alt="Morning Combo">
         <div class="offer-card-body">
           <div class="offer-title">Couple Special</div>
           <p class="offer-desc">2 Special Masala Chai + 2 Samosa at a lover's price. Share your cup, share a moment.</p>
@@ -860,7 +860,7 @@
         </div>
       </div>
       <div class="offer-card fade-in">
-        <img src="vfc/samosaoffer.png" class="offer-img" alt="Morning Combo">
+        <img src="samosaoffer.png" class="offer-img" alt="Morning Combo">
         <div class="offer-card-body">
           <div class="offer-title">Student Pack</div>
           <p class="offer-desc">Flash your student ID & get 15% off on all chai orders. Study hard, sip harder.</p>
@@ -1005,35 +1005,35 @@
 
       <!-- Item 1: Hero (spans 2 cols × 2 rows) -->
       <div class="gallery-item">
-        <img src="vfc/Adrak.png" alt="Masala Adrak Chai" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <img src="Adrak.png" alt="Masala Adrak Chai" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="img-placeholder" style="display:none;">🍵</div>
         <div class="overlay"><span class="overlay-text">Masala Adrak Chai</span></div>
       </div>
 
       <!-- Item 2 -->
       <div class="gallery-item">
-        <img src="vfc/Cutting.png" alt="Classic Cutting Chai" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <img src="Cutting.png" alt="Classic Cutting Chai" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="img-placeholder" style="display:none;">🫖</div>
         <div class="overlay"><span class="overlay-text">Cutting Chai</span></div>
       </div>
 
       <!-- Item 3 -->
       <div class="gallery-item">
-        <img src="vfc/Kulhad.png" alt="Kulhad Chai" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <img src="Kulhad.png" alt="Kulhad Chai" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="img-placeholder" style="display:none;">🌿</div>
         <div class="overlay"><span class="overlay-text">Kulhad Special</span></div>
       </div>
 
       <!-- Item 4: tall item (spans 2 rows) -->
       <div class="gallery-item">
-        <img src="vfc/Samosa.png" alt="Hot Samosa" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <img src="Samosa.png" alt="Hot Samosa" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="img-placeholder" style="display:none;">🥟</div>
         <div class="overlay"><span class="overlay-text">Hot Samosa</span></div>
       </div>
 
       <!-- Item 5 -->
       <div class="gallery-item">
-        <img src="vfc/Pakora.png" alt="Bread Pakora" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <img src="Pakora.png" alt="Bread Pakora" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="img-placeholder" style="display:none;">🥐</div>
         <div class="overlay"><span class="overlay-text">Bread Pakora</span></div>
       </div>
@@ -1087,7 +1087,7 @@
       <div class="owner-card">
         <div class="owner-photo-wrap">
           <!-- Replace the placeholder below with: <img src="vfc/owner.png" alt="Founder" class="owner-photo"> -->
-          <img src="vfc/owner.png" alt="Founder" class="owner-photo">
+          <img src="owner.png" alt="Founder" class="owner-photo">
           <div class="owner-online-dot"></div>
         </div>
         <div class="owner-info">
@@ -1346,16 +1346,16 @@ document.querySelectorAll('.popup-overlay').forEach(el => {
 
   /* ---- MENU ---- */
   const menuItems = [
-    { cat:'chai',  name:'Classic Cutting Chai',  desc:'Traditional Bengali cha brewed strong with full-fat milk.',       price:'₹10',  best:true,  images:['vfc/Cutting.png','vfc/Cutting.png'] },
-    { cat:'chai',  name:'Kulhad Chai',            desc:'Served in authentic clay kulhad for that earthy aroma.',          price:'₹15',  best:true,  images:['vfc/Kulhad.png'] },
-    { cat:'special',name:'Darjeeling First Flush',desc:'Pure Darjeeling first flush — light, floral, premium.',           price:'₹30',  best:true,  images:['vfc/Darjeeling.png'] },
-    { cat:'special',name:'Masala Adrak Chai',     desc:'Ginger, cardamom, cinnamon & secret spice blend.',               price:'₹20',  best:false, images:['vfc/Adrak.png','vfc/Adrak.png'] },
-    { cat:'special',name:'Elaichi Special',       desc:'Cardamom-forward brew loved by generations.',                    price:'₹18',  best:false, images:['vfc/Elaichi.png'] },
-    { cat:'special',name:'Rose Lichi Chai',       desc:'Floral, sweet & absolutely unique. Instagram-worthy!',           price:'₹35',  best:false, images:['vfc/Rose.png'] },
-    { cat:'snacks', name:'Bread Pakora',          desc:'Crispy stuffed bread fritters — the perfect chai companion.',    price:'₹15',  best:true,  images:['vfc/Pakora.png'] },
-    { cat:'snacks', name:'Samosa',                desc:'Crispy potato & pea samosas served hot.',                        price:'₹12',  best:false, images:['vfc/Samosa.png'] },
-    { cat:'snacks', name:'Kachuri + Torkari',     desc:'Traditional Bengali kachuri with aloo torkari.',                 price:'₹25',  best:false, images:['vfc/Kachuri.png'] },
-    { cat:'snacks', name:'Toast Butter',          desc:'Simple, satisfying, warm buttered toast.',                       price:'₹10',  best:false, images:['vfc/Toast.png'] },
+    { cat:'chai',  name:'Classic Cutting Chai',  desc:'Traditional Bengali cha brewed strong with full-fat milk.',       price:'₹10',  best:true,  images:['Cutting.png','Cutting.png'] },
+    { cat:'chai',  name:'Kulhad Chai',            desc:'Served in authentic clay kulhad for that earthy aroma.',          price:'₹15',  best:true,  images:['Kulhad.png'] },
+    { cat:'special',name:'Darjeeling First Flush',desc:'Pure Darjeeling first flush — light, floral, premium.',           price:'₹30',  best:true,  images:['Darjeeling.png'] },
+    { cat:'special',name:'Masala Adrak Chai',     desc:'Ginger, cardamom, cinnamon & secret spice blend.',               price:'₹20',  best:false, images:['Adrak.png','Adrak.png'] },
+    { cat:'special',name:'Elaichi Special',       desc:'Cardamom-forward brew loved by generations.',                    price:'₹18',  best:false, images:['Elaichi.png'] },
+    { cat:'special',name:'Rose Lichi Chai',       desc:'Floral, sweet & absolutely unique. Instagram-worthy!',           price:'₹35',  best:false, images:['Rose.png'] },
+    { cat:'snacks', name:'Bread Pakora',          desc:'Crispy stuffed bread fritters — the perfect chai companion.',    price:'₹15',  best:true,  images:['Pakora.png'] },
+    { cat:'snacks', name:'Samosa',                desc:'Crispy potato & pea samosas served hot.',                        price:'₹12',  best:false, images:['Samosa.png'] },
+    { cat:'snacks', name:'Kachuri + Torkari',     desc:'Traditional Bengali kachuri with aloo torkari.',                 price:'₹25',  best:false, images:['Kachuri.png'] },
+    { cat:'snacks', name:'Toast Butter',          desc:'Simple, satisfying, warm buttered toast.',                       price:'₹10',  best:false, images:['Toast.png'] },
   ];
 
   function renderMenu(filter='all') {
